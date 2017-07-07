@@ -30,7 +30,7 @@
     "remote":      "github"
   }
   {
-    "repository":  "Keerten/android_vendor_motorola_athene",
+    "repository":  "Keerten/vendor",
     "target_path": "vendor/motorola/athene"
     "revision":    "cm-14.1",
     "remote":      "github"
