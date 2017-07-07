@@ -3,37 +3,24 @@
     "remote": "github",
     "repository":  "Keerten/exkernel",
     "target_path": "kernel/motorola/msm8952",
-    "revision":    "ElementalX-1.00-LOS"
+    "branch": "ElementalX-1.00-LOS"
+  },
+  {
+    "remote": "github",
+    "repository": "Keerten/vendor",
+    "target_path": "vendor/motorola/athene",
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
     "repository": "LineageOS/android_external_bson",
     "target_path": "external/bson",
-    "revision":    "cm-14.1"
-  },
-  {
-    "remote": "github",
-    "repository": "LineageOS/android_external_stlport",
-    "target_path": "external/stlport",
-    "revision":    "cm-14.1"
-
-  },
-  {
-    "remote": "github",
-    "repository": "LineageOS/android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision":    "cm-14.1"
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "revision":    "cm-14.1"
-  }
-  {
-    "remote":      "github",
-    "repository":  "Keerten/vendor",
-    "target_path": "vendor/motorola/athene",
-    "revision":    "cm-14.1"
+    "branch": "cm-14.1"
   }
 ]
