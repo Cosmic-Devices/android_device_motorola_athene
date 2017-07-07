@@ -18,6 +18,9 @@ $(call inherit-product, vendor/cos/common.mk)
 
 $(call inherit-product, device/motorola/athene/full_athene.mk)
 
+# for specific
+$(call inherit-product, vendor/motorola/athene/athene-vendor.mk)
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
