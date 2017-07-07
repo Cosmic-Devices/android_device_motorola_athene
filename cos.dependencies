@@ -1,8 +1,8 @@
 [
   {
-    "repository":  "LineageOS/android_kernel_motorola_msm8952",
+    "repository":  "Keerten/exkernel",
     "target_path": "kernel/motorola/msm8952"
-    "revision":    "cm-14.1",
+    "revision":    "ElementalX-1.00-LOS",
     "remote":      "github"
   },
   {
@@ -26,6 +26,12 @@
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
+    "revision":    "cm-14.1",
+    "remote":      "github"
+  }
+  {
+    "repository":  "Keerten/android_vendor_motorola_athene",
+    "target_path": "vendor/motorola/athene"
     "revision":    "cm-14.1",
     "remote":      "github"
   }
