@@ -34,4 +34,5 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := athene
 
 #Official
-COS_RELEASE := true
+KBUILD_BUILD_HOST := Saturn
+KBUILD_BUILD_USER := Savitar
