@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository":  "Keerten/exkernel",
+    "repository":  "Keerten/Immune_athene",
     "target_path": "kernel/motorola/msm8952",
-    "branch": "ElementalX-1.00-LOS"
+    "branch": "Immune-LOS"
   },
   {
     "remote": "github",
