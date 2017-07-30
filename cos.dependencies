@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository":  "Keerten/Immune_athene",
+    "repository":  "LineageOS/android_kernel_motorola_msm8952",
     "target_path": "kernel/motorola/msm8952",
-    "branch": "Immune-LOS"
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
