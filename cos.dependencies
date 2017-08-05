@@ -1,9 +1,9 @@
 [
   {
     "remote": "github",
-    "repository":  "LineageOS/android_kernel_motorola_msm8952",
+    "repository":  "Keerten/exkernel",
     "target_path": "kernel/motorola/msm8952",
-    "branch": "cm-14.1"
+    "branch": "ElementalX-1.00-LOS"
   },
   {
     "remote": "github",
