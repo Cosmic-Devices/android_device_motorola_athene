@@ -3,7 +3,7 @@
     "remote": "github",
     "repository":  "Keerten/exkernel",
     "target_path": "kernel/motorola/msm8952",
-    "branch": "ElementalX-1.00-LOS"
+    "branch": "ex"
   },
   {
     "remote": "github",
