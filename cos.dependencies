@@ -1,14 +1,14 @@
 [
   {
     "remote": "github",
-    "repository":  "Keerten/exkernel",
+    "repository":  "LineageOS/android_kernel_motorola_msm8952",
     "target_path": "kernel/motorola/msm8952",
-    "branch": "ex"
+    "branch": "cm-14.1"
   },
   {
     "remote": "github",
-    "repository": "Keerten/vendor",
-    "target_path": "vendor/motorola/athene",
+    "repository": "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
     "branch": "cm-14.1"
   },
   {
