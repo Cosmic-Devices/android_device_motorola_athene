@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common LineageOS stuff.
+# Inherit some common Cosmic-OS stuff.
 
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cos/common.mk)
 
 $(call inherit-product, device/motorola/athene/full_athene.mk)
 
@@ -28,7 +28,7 @@ TARGET_BOOTANIMATION_HALF_RES := true
 ## Device identifier. This must come after all inclusions
 
 PRODUCT_DEVICE := athene
-PRODUCT_NAME := lineage_athene
+PRODUCT_NAME := cos_athene
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := athene
@@ -38,3 +38,8 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
        PRODUCT_NAME="Moto G4/Plus"
+
+#OFFICIAL
+
+KBUILD_BUILD_HOST := Saturn
+KBUILD_BUILD_USER := Savitar

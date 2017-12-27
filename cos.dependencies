@@ -1,26 +1,20 @@
 [
   {
     "remote": "github",
-    "repository":  "LineageOS/android_kernel_motorola_msm8952",
+    "repository":  "TeamButter/android_kernel_motorola_msm8952",
     "target_path": "kernel/motorola/msm8952",
-    "branch": "cm-14.1"
+    "branch": "lineage-15.1-64"
   },
   {
     "remote": "github",
-    "repository": "Keerten/vendor",
+    "repository": "TeamButter/proprietary_vendor_motorola",
     "target_path": "vendor/motorola/athene",
-    "branch": "cm-14.1"
-  },
-  {
-    "remote": "github",
-    "repository": "LineageOS/android_external_bson",
-    "target_path": "external/bson",
-    "branch": "cm-14.1"
+    "branch": "lineage-15.1-64"
   },
   {
     "remote": "github",
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch": "cm-14.1"
+    "branch": "lineage-15.0"
   }
 ]
