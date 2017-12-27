@@ -8,7 +8,7 @@
   {
     "remote": "github",
     "repository": "TeamButter/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola/athene",
+    "target_path": "vendor/motorola",
     "branch": "lineage-15.1-64"
   },
   {
