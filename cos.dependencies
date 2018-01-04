@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "TeamButter/proprietary_vendor_motorola",
+    "repository": "Keerten/vendor_motorola_athene",
     "target_path": "vendor/motorola",
-    "branch": "lineage-15.1-64"
+    "branch": "oreo-mr1-64"
   },
   {
     "remote": "github",
