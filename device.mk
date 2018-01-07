@@ -130,7 +130,7 @@ PRODUCT_PACKAGES += \
 # Disable camera Treble path
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_treble=true
- 
+
 # LineageActions
 PRODUCT_PACKAGES += \
     LineageActions
@@ -169,7 +169,7 @@ PRODUCT_PACKAGES += \
 # Memtrack HAL
 PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl
- 
+
 # GNSS HAL
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl
@@ -197,6 +197,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
 # HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0
 
 # Keystore
 PRODUCT_PACKAGES += \
@@ -316,7 +318,7 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-athene.conf:system/etc/thermal-engine-athene.conf
-    
+
 #USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
